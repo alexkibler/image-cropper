@@ -1,0 +1,38 @@
+.collage {
+    width:600px;
+    height:400px;
+    background:grey;
+    margin:0;
+    padding:0;
+    position:relative;
+  }
+  #image1 {
+    position:absolute;
+    cursor:pointer;
+    width:100px;
+    height:100px;
+    background: white;
+    top:50px;
+    left:50px;
+  }
+  
+  #image2 {
+    position:absolute;
+    cursor:pointer;
+    width:100px;
+    height:100px;
+    background: red;
+    bottom:50px;
+    left:50px;
+  }
+  
+  
+  #image3 {
+    position:absolute;
+    cursor:pointer;
+    width:100px;
+    height:100px;
+    background: blue;
+    top:150px;
+    left:400px;
+  }
