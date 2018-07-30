@@ -5,7 +5,6 @@ import {
   MatCheckboxModule
 } from '@angular/material';
 import { NgModule } from '@angular/core';
-import { ImageCropperModule } from 'ngx-image-cropper';
 
 
 
@@ -20,8 +19,7 @@ import { AppComponent } from './app.component';
     BrowserModule,
     BrowserAnimationsModule,
     MatButtonModule,
-    MatCheckboxModule,
-    ImageCropperModule
+    MatCheckboxModule
   ],
   providers: [],
   bootstrap: [AppComponent]
