@@ -19,12 +19,9 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css",
-        "../node_modules/cropperjs/dist/cropper.css"
+        "styles.css"
       ],
       "scripts": [
-        "../node_modules/cropperjs/dist/cropper.js",
-        "filterous2.min.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
