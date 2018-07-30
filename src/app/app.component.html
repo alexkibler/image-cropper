@@ -7,18 +7,6 @@
   </div>
   </div>
   <input type="file" (change)="fileChange($event)" placeholder="Upload file" accept=".jpg, .jpeg" id="file">
-  <image-cropper
-    
-      [imageChangedEvent]="imageChangedEvent"
-      [maintainAspectRatio]="true"
-      [aspectRatio]="1/1"
-      format="pnc"
-      (imageCroppedBase64)="imageCroppedBase64($event)"
-      (imageLoaded)="imageLoaded()"
-      (loadImageFailed)="loadImageFailed()"
-      style="max-height: 33vh"
-      [style.display]="cropperReady ? null : 'none'"
-  ></image-cropper>
   <div class="console">
     <p *ngFor="let c of logs">{{c}}</p>
   </div>
